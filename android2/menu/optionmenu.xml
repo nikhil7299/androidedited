@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <item
+        android:id="@+id/setting"
+        android:title="Setting"
+        />
+    <item
+        android:id="@+id/notification"
+        android:title="Notification"
+
+        />
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+
+        />
+
+    <item
+    android:id="@+id/delete"
+        android:title="Delete"
+        />
+
+</menu>

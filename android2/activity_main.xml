@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Popup Menu"
+        android:layout_margin="30dp"
+        android:textSize="20dp"
+        android:layout_centerHorizontal="true"
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Optional Menu"
+        android:textSize="20dp"
+        android:layout_marginBottom="30dp"
+        android:layout_below="@+id/textView1"
+        android:layout_centerHorizontal="true"
+    />
+    <Button
+        android:id="@+id/popupMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_200"
+        android:text="Popup Menu"
+        android:layout_centerHorizontal="true"
+        />
+    <Button
+        android:id="@+id/alertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/popupMenu"
+        android:textSize="20sp"
+        android:backgroundTint="@color/purple_500"
+        android:text="Show Alert Dialog"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:id="@+id/customAlertDialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/alertDialog"
+        android:textSize="20sp"
+        android:backgroundTint="@color/teal_700"
+        android:text="Custom Alert Dialog"
+        android:layout_centerHorizontal="true"
+
+        />
+    <Button
+        android:id="@+id/alertItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/customAlertDialog"
+        android:textSize="20sp"
+        android:backgroundTint="@color/purple_200"
+        android:text="Alert With Item"
+        android:layout_centerHorizontal="true"
+
+        />
+</RelativeLayout>

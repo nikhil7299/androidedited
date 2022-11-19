@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Sep13Activity"
+    android:layout_margin="10dp"
+
+    >
+
+    <TextView
+        android:id="@+id/txtv1"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:backgroundTint="#D9817B"
+        android:text="First Name"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit1"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="First Name"
+        android:layout_toRightOf="@+id/txtv1"
+
+        />
+    <TextView
+        android:id="@+id/txtv2"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtv1"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Last Name"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit2"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Last Name"
+        android:layout_toRightOf="@+id/txtv2"
+        android:layout_below="@+id/edit1"
+
+
+        />
+    <TextView
+        android:id="@+id/txtv3"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtv2"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Address"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit3"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_toRightOf="@+id/txtv3"
+        android:layout_below="@+id/edit2"
+
+
+        />
+    <TextView
+        android:id="@+id/txtv4"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtv3"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Country"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit4"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Country"
+        android:layout_toRightOf="@+id/txtv4"
+        android:layout_below="@+id/edit3"
+
+        />
+    <TextView
+        android:id="@+id/txtv5"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtv4"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="City"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit5"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="City"
+        android:layout_toRightOf="@+id/txtv5"
+        android:layout_below="@+id/edit4"
+
+
+        />
+    <TextView
+        android:id="@+id/txtv6"
+        android:layout_width="120dp"
+        android:layout_height="45dp"
+        android:layout_below="@+id/txtv5"
+        android:layout_marginRight="20dp"
+        android:paddingLeft="5dp"
+        android:paddingTop="10dp"
+        android:text="Pin Code"
+        android:textSize="20dp"
+        />
+
+    <EditText
+        android:id="@+id/edit6"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:hint="Pin Code"
+        android:layout_toRightOf="@+id/txtv6"
+        android:layout_below="@+id/edit5"
+
+        />
+    <Button
+        android:id="@+id/submitBtn"
+        android:layout_width="120dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:text="Submit"
+        android:textAllCaps="false"
+        android:layout_below="@id/edit6"
+        android:layout_centerHorizontal="true"
+
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+
+        />
+
+
+</RelativeLayout>
